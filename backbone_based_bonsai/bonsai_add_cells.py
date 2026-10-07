@@ -34,7 +34,7 @@ parser.add_argument('--preprocessed_data_folder', type=str, default=None,
 
 parser.add_argument('--growth_before_cleanup', type=float, default=.5,
                     help="When adding cells, this factor (larger than 0) determines after what growth factor (so .1 "
-                         "means 10% growth) we re-optimize the tree before adding another set of cells.")
+                         "means 10%% growth) we re-optimize the tree before adding another set of cells.")
 
 # parser.add_argument('--resolve_polytomies_immediately', type=str2bool, default=True,
 #                     help="Determines whether, when adding a cell downstream of a node, we immediately test whether it "
